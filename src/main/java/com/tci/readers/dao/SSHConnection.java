@@ -6,9 +6,13 @@ import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
 
 public class SSHConnection {
+    //local ppk file
     private final static String S_PATH_FILE_PRIVATE_KEY = "d:\\software\\clee.ppk";
+    //always 22
     private final static int SSH_REMOTE_PORT = 22;
+    //login in user name
     private final static String SSH_USER = "clee";
+    //remote server ip
     private final static String MYSQL_REMOTE_SERVER = "52.10.174.225";
 
     private Session sesion; //represents each ssh session
