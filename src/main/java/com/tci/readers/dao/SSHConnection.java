@@ -24,7 +24,7 @@ public class SSHConnection {
 
     public SSHConnection () throws Throwable
     {
-
+        //init jsch
         JSch jsch = null;
 
         jsch = new JSch();
